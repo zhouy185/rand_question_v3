@@ -7,7 +7,7 @@ authors = [
     { name = "Yun Zhou", email = "yun.zhou@mcmaster.ca" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = ["streamlit>=1.38"]
 
 [project.scripts]
 rand-question-v3 = "rand_question_v3.cli:main"
